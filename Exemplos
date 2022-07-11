@@ -11,4 +11,4 @@ print(lista[0:2])
 # pulando de dois em dois 
 print(lista[::2])
 # invertendo a lista
-print(lista)
+print(lista[::-1])
