@@ -1,0 +1,14 @@
+#         1    2    3     4
+lista = ["a", "b", "c", 10.5]
+print(lista)
+# monstrando um item da lista
+print(lista[1])
+# alteando item da lista
+lista[1] = "Qualquer outra coisa"
+print(lista)
+# fatiamento de lista
+print(lista[0:2])
+# pulando de dois em dois 
+print(lista[::2])
+# invertendo a lista
+print(lista)
