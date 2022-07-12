@@ -1,5 +1,5 @@
-#         1    2    3     4
-lista = ["a", "b", "c", 10.5]
+# 1 2 3 4
+lista = ["a", "b", "c", 10,5]
 print(lista)
 # monstrando um item da lista
 print(lista[1])
@@ -8,7 +8,23 @@ lista[1] = "Qualquer outra coisa"
 print(lista)
 # fatiamento de lista
 print(lista[0:2])
-# pulando de dois em dois 
+# pulando de dois em dois
 print(lista[::2])
 # invertendo a lista
 print(lista[::-1])
+# manipulando as litas
+l1 = [1,2,3]
+l2 = [4,5,6]
+print(l1,l2)
+# EXTEND
+l1.extend(l2)
+print(l1)
+l1.extend("João")
+print(l1)
+# Somando listas
+l3 = l1 + l2
+print(l3)
+l1.extend(l2)
+# APPEND = Adiciona valores a lista
+l2.append("Soma")
+print(l2)
